@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: "Bahnschrift";
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 15px 20px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    border-bottom: 2px solid yellow;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 900;
+    color: yellow;
+}
+
+.btn {
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: rgb(0, 144, 155);
+    height: 70px;
+
+}
+
+.showcase {
+    background-color: rgb(0, 144, 155);
+    height: 300px;
+}
+
+.showcase .container {
+    padding: 50px 0;
+}
+
+.showcase-text h2 {
+    color: yellow;
+    font-size: 35px;
+}
+
+.showcase-text p {
+    color: yellow;
+    font-size: medium;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.card {
+    background-color: yellow;
+    color: #333;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    top: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    overflow: visible;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.submit {
+    border: 2px solid #333;
+    padding: 20px 0;
+    width: 100px;
+    cursor: pointer;
+    margin-right: 200px;
+}
