@@ -4,6 +4,14 @@
     margin: 0%;
 }
 
+::-moz-selection {
+    background-color: rgba(255, 255, 0, 0.4);
+}
+
+::selection {
+    background-color: rgba(255, 255, 0, 0.4);
+}
+
 body {
     font-family: "Bahnschrift";
     background-color: #fff;
@@ -94,15 +102,78 @@ input:focus {
 /* stats */
 .stats {
     padding-top: 100px;
+
 }
 
 .text-center {
     text-align: center;
 }
 
-.my-1{
+.stats-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.stats .grid h3 {
+    font-size: 30px;
     margin: 1rem;
 }
+
+.stats .grid p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stats .grid-3 {
+    margin: 2rem 0;
+}
+
+/* cli  */
+.cli .grid {
+    margin-top: -40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid img {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+
+/* cloud */
+.cloud {
+    background: rgb(0, 144, 155);
+}
+
+.cloud h2 {
+    color: yellow;
+    font-size: 35px;
+    margin: 1rem;
+}
+
+.cloud p {
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.cloud .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer  */
+footer {
+    background-color: rgb(0, 144, 155);
+}
+
+footer a:hover{
+    border: none;
+}
+/* utilities */
 .container {
     max-width: 1100px;
     padding: 20px 40px;
@@ -146,4 +217,31 @@ input:focus {
     width: 100px;
     cursor: pointer;
     margin-right: 200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cli .grid .card {
+    height: fit-content;
+    top: 0%;
+    margin: auto;
+}
+
+.languages .card {
+    width: auto;
+    height: fit-content;
+    top: 0%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.languages .card img {
+    width: auto;
+}
+
+.languages .flex {
+    flex-wrap: wrap;
 }
