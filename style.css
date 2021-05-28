@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: "Bahnschrift";
+    font-family: 'Bahnschrift';
     background-color: #fff;
 }
 
@@ -55,7 +55,6 @@ h1 {
 .navbar {
     background-color: rgb(0, 144, 155);
     height: 70px;
-
 }
 
 .showcase {
@@ -98,11 +97,9 @@ input:focus {
     outline: none;
 }
 
-
 /* stats */
 .stats {
     padding-top: 100px;
-
 }
 
 .text-center {
@@ -140,7 +137,6 @@ input:focus {
     grid-row: 1 / span 2;
 }
 
-
 /* cloud */
 .cloud {
     background: rgb(0, 144, 155);
@@ -170,7 +166,7 @@ footer {
     background-color: rgb(0, 144, 155);
 }
 
-footer a:hover{
+footer a:hover {
     border: none;
 }
 /* utilities */
@@ -183,7 +179,6 @@ footer a:hover{
 .flex {
     display: flex;
     justify-content: space-between;
-
 }
 
 .grid {
